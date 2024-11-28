@@ -1,0 +1,40 @@
+# CAP Sourcing Card
+_out
+*.db
+connection.properties
+default-*.json
+gen/
+node_modules/
+target/
+module/
+
+# Web IDE, App Studio
+.che/
+.gen/
+
+# MTA
+*_mta_build_tmp
+*.mtar
+mta_archives/
+
+# Other
+.DS_Store
+*.orig
+*.log
+
+*.iml
+*.flattened-pom.xml
+
+# IDEs
+.env*
+# .idea
+
+# added by cds deploy
+default-env.json
+
+# auto generated wildcard
+sep/hana-env.json
+default-env.development
+db/.env
+# added by cds
+.cdsrc-private.json
